@@ -1,0 +1,11 @@
+// /////////////////////////////////////////////////////////////
+// Coding Dojo > Java Stack > Foundations: Cafe Java
+// By: Virgilio D. Cabading Jr.     Created at: November 26, 2021 1730
+// /////////////////////////////////////////////////////////////
+
+public class CafeJava {
+    // //// MAIN EXECUTABLE CODE ///////////////////////////////
+    public static void main(String[] args) {
+        
+    }
+}
