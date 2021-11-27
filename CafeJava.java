@@ -22,11 +22,14 @@ public class CafeJava {
         // **** Customer name variables ************************
         String customer1 = "Cindhuri";
         String customer2 = "Sam";                               // Create 3 more customer variables
-        String customer3 = "Jimmey";                            //  for Sam, Jimmy and Noah
+        String customer3 = "Jimmy";                             //  for Sam, Jimmy and Noah
         String customer4 = "Noah";
         
         // **** Order Completion variables *********************
         boolean isReadyOrder1 = false;
+        boolean isReadyOrder2 = false;                          // Create the order status flag (true/false) for each customer
+        boolean isReadyOrder3 = false;
+        boolean isReadyOrder4 = false;
         
         // //// APP INTERACTION SIMULATION /////////////////////
         System.out.println(generalGreeting + customer1); // Displays "Welcome to Cafe Java, Cindhuri"
