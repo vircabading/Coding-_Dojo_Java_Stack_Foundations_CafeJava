@@ -14,7 +14,10 @@ public class CafeJava {
         String displayTotalMessage = "Your total is $";
         
         // **** Menu variables *********************************
-        double mochaPrice = 3.5;
+        double mochaPrice = 3.5;                                // Create 3 more drink price variables
+        double dripCoffeePrice = 1.75;                          //  for drip coffee, latte and cappuccino
+        double cafeLattePrice = 3.75;
+        double capuccinoPrice = 4.0;
         
         // **** Customer name variables ************************
         String customer1 = "Cindhuri";
@@ -22,8 +25,7 @@ public class CafeJava {
         // **** Order Completion variables *********************
         boolean isReadyOrder1 = false;
         
-        // APP INTERACTION SIMULATION (Add your code for the challenges below)
-        // Example:
+        // //// APP INTERACTION SIMULATION /////////////////////
         System.out.println(generalGreeting + customer1); // Displays "Welcome to Cafe Java, Cindhuri"
         // ** Your customer interaction print statements will go here ** //
         
