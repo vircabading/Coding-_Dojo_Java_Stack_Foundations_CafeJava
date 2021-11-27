@@ -9,8 +9,10 @@ public class CafeJava {
 
         // **** Variable Declaration ***************************
         String generalGreeting = "Welcome to Cafe Java, ";
+        String orderedMessage = ", ordered a ";
         String pendingMessage = ", your order will be ready shortly";
         String readyMessage = ", your order is ready";
+        String costMessage = " costs $";
         String displayTotalMessage = "Your total is $";
         
         // **** Menu variables *********************************
@@ -30,9 +32,28 @@ public class CafeJava {
         boolean isReadyOrder2 = false;                          // Create the order status flag (true/false) for each customer
         boolean isReadyOrder3 = false;
         boolean isReadyOrder4 = false;
+
+        // **** Total order price variables ********************
+        double totalCostOrder1 = 0;
+        double totalCostOrder2 = 0;
+        double totalCostOrder3 = 0;
+        double totalCostOrder4 = 0;
         
         // //// APP INTERACTION SIMULATION /////////////////////
-        System.out.println(generalGreeting + customer1); // Displays "Welcome to Cafe Java, Cindhuri"
+
+        System.out.println("/////////////////////////////////////////////////////");
+                                                                // First Customer Order a coffee
+        System.out.println(generalGreeting + customer1);        // Displays "Welcome to Cafe Java, Cindhuri"
+        System.out.println(customer1 + orderedMessage + "drip Coffee");
+        totalCostOrder1 += dripCoffeePrice;
+        System.out.println("Drip Coffee" + costMessage + totalCostOrder1);
+        if (isReadyOrder1) {
+            System.out.println(customer1 + readyMessage);
+        } else {
+            System.out.println(customer1 + pendingMessage);
+        }
+        System.out.println(displayTotalMessage + totalCostOrder1);
+
         // ** Your customer interaction print statements will go here ** //
         
     }
