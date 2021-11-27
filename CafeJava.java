@@ -49,10 +49,20 @@ public class CafeJava {
         System.out.println("Drip Coffee" + costMessage + totalCostOrder1);
         if (isReadyOrder1) {
             System.out.println(customer1 + readyMessage);
+            System.out.println(displayTotalMessage + totalCostOrder1);
         } else {
             System.out.println(customer1 + pendingMessage);
         }
-        System.out.println(displayTotalMessage + totalCostOrder1);
+        
+        System.out.println("*****************************************************");
+        isReadyOrder1 = true;
+        if (isReadyOrder1) {
+            System.out.println(customer1 + readyMessage);
+            System.out.println(displayTotalMessage + totalCostOrder1);
+        } else {
+            System.out.println(customer1 + pendingMessage);
+        }
+        System.out.println("");
 
         // ** Your customer interaction print statements will go here ** //
         
