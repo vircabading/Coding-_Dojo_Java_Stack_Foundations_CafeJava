@@ -21,6 +21,9 @@ public class CafeJava {
         
         // **** Customer name variables ************************
         String customer1 = "Cindhuri";
+        String customer2 = "Sam";                               // Create 3 more customer variables
+        String customer3 = "Jimmey";                            //  for Sam, Jimmy and Noah
+        String customer4 = "Noah";
         
         // **** Order Completion variables *********************
         boolean isReadyOrder1 = false;
